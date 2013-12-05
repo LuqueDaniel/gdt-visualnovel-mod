@@ -34,6 +34,13 @@ var vnTopics = {};
             },
             
             {
+                id: "Gore",
+                name: "Gore".localize("game topic"),
+                genreWeightings: [0.9, 0.8, 0.8, 0.6, 0.6, 0.7],	
+                audienceWeightings: [0.6, 0.6, 1]
+            },
+            
+            {
                 id: "Kinetic Novel",
                 name: "Kinetic Novel".localize("game topic"),
                 genreWeightings: [0.6, 0.9, 0.6, 0.6, 0.6, 0.8],	
