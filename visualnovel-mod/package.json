@@ -1,0 +1,12 @@
+{
+    "id": "visualnovelMod",
+    "name": "Visual Novel Mod",
+    "version": "0.1",
+    "description": "This mod adds support for visual novels.",
+    "author": "Daniel Luque <danielluque14 at gmail.com>",
+    "url": "",
+    "main": "./vnMod.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+    }
+}
