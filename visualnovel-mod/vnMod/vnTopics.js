@@ -59,7 +59,15 @@ var vnTopics = {};
                 name: "Love".localize("game topic"),
                 genreWeightings: [0.7, 0.8, 0.8, 0.8, 0.6, 0.9],	
                 audienceWeightings: [0.6, 0.9, 1]
-            }
+            },
+            
+            {
+                id: "Science",
+                name: "Science".localize("game topic"),
+                genreWeightings: [0.7, 0.8, 0.8, 0.8, 0.8, 0.8],	
+                audienceWeightings: [0.7, 1, 1]
+            },
+            
         ]);
     };
     
