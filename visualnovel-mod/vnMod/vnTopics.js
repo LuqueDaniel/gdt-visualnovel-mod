@@ -27,6 +27,13 @@ var vnTopics = {};
             },
             
             {
+                id: "Friendship",
+                name: "Friendship".localize("game topic"),
+                genreWeightings: [0.8, 0.8, 0.8, 0.6, 0.6, 0.9],	
+                audienceWeightings: [0.8, 0.9, 1]
+            },
+            
+            {
                 id: "Kinetic Novel",
                 name: "Kinetic Novel".localize("game topic"),
                 genreWeightings: [0.6, 0.9, 0.6, 0.6, 0.6, 0.8],	
