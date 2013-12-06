@@ -62,6 +62,13 @@ var vnTopics = {};
             },
             
             {
+                id: "Romantic Comedy",
+                name: "Romantic Comedy".localize("game topic"),
+                genreWeightings: [0.7, 0.8, 0.8, 0.7, 0.6, 0.9],	
+                audienceWeightings: [0.6, 0.9, 1]
+            },
+            
+            {
                 id: "Survival",
                 name: "Survival".localize("game topic"),
                 genreWeightings: [0.9, 1, 0.9, 0.7, 0.9, 0.7],	
