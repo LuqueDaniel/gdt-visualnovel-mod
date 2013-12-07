@@ -28,6 +28,19 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
+        
+        //Add Translations
+        GDT.addResearchItem(
+            {
+                id: "Translations",
+                name: "Translations",
+                v: 6,
+                canResearch: function (company) {
+                    return company.currentLevel == 2;
+                },
+                category: "Language",
+                categoryDisplayName: "language".localize()
+            });
     };
     
 })();
