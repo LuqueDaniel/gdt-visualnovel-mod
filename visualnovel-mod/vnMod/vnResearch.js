@@ -6,11 +6,11 @@ var vnResearch = {};
         //Add Auto Save
         GDT.addResearchItem(
             {
-                id: "Auto Save",
-                name: "Auto Save".localize(),
+                id: "Auto Saving",
+                name: "Auto Saving".localize(),
                 v: 2,
                 canResearch: function (company) {
-                    return LevelCalculator.getMissionLevel('Engine') > 2;
+                    return LevelCalculator.getMissionLevel('Engine') > 3;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
