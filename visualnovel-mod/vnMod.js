@@ -2,6 +2,9 @@
     var ready = function () {
         //Adds topics
         vnTopics.addTopics();
+        
+        //Adds researchs
+        vnResearch.addResearch();
     };
     
     var error = function () {
