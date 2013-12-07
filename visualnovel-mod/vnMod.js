@@ -19,6 +19,7 @@
             'mods/gdt-modAPI/examples/examples.js',
             
             //Visual Novel Mod files
-            'mods/visualnovel-mod/vnMod/vnTopics.js'
+            'mods/visualnovel-mod/vnMod/vnTopics.js',
+            'mods/visualnovel-mod/vnMod/vnResearch.js'
         ], ready, error);
 })();
