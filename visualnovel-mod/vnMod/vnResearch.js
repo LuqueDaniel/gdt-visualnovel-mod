@@ -10,7 +10,7 @@ var vnResearch = {};
                 name: "Auto Saving".localize(),
                 v: 2,
                 canResearch: function (company) {
-                    return LevelCalculator.getMissionLevel('Engine') > 3;
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
@@ -23,7 +23,7 @@ var vnResearch = {};
                 name: "Quick Saving".localize(),
                 v: 4,
                 canResearch: function (company) {
-                    return LevelCalculator.getMissionLevel('Engine') > 4;
+                    return LevelCalculator.getMissionLevel('Engine') >= 4;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
@@ -36,10 +36,10 @@ var vnResearch = {};
                 name: "Translations",
                 v: 6,
                 canResearch: function (company) {
-                    return company.currentLevel == 2;
+                    return company.currentLevel >= 2;
                 },
                 category: "Language",
-                categoryDisplayName: "language".localize()
+                categoryDisplayName: "Language".localize()
             });
     };
     
