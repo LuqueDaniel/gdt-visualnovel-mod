@@ -23,7 +23,20 @@ var vnResearch = {};
                 name: "CG Gallery".localize(),
                 v: 4,
                 canResearch: function (company) {
-                    return LevelCalculator.GetMissionLevel('Engine') >= 3;
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
+        
+        //Add Music Gallery
+        GDT.addRsearchItem(
+            {
+                id: "Music Gallery",
+                name: "Music Gallery".localize(),
+                v: 4,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
