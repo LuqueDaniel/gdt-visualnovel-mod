@@ -42,6 +42,20 @@ var vnResearch = {};
                 categoryDisplayName: "Engine".localize()
             });
         
+        //Add Scenes Gallery
+        GDT.addResearchItem(
+            {
+                id: "Scenes Gallery",
+                name: "Scenes Gallery".localize(),
+                v: 4,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize(),
+                
+            });
+        
         //Add Translations
         GDT.addResearchItem(
             {
