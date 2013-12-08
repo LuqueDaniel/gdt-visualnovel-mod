@@ -16,6 +16,19 @@ var vnResearch = {};
                 categoryDisplayName: "Engine".localize()
             });
         
+        //Add CG Gallery
+        GDT.addResearchItem(
+            {
+                id: "CG Gallery",
+                name: "CG Gallery",
+                v: 4,
+                canResearch: function (company) {
+                    return LevelCalculator.GetMissionLevel('Engine') >= 3;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
+        
         //Add Quick Saving
         GDT.addResearchItem(
             {
