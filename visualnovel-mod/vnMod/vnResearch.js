@@ -20,7 +20,7 @@ var vnResearch = {};
         GDT.addResearchItem(
             {
                 id: "CG Gallery",
-                name: "CG Gallery",
+                name: "CG Gallery".localize(),
                 v: 4,
                 canResearch: function (company) {
                     return LevelCalculator.GetMissionLevel('Engine') >= 3;
@@ -60,7 +60,7 @@ var vnResearch = {};
         GDT.addResearchItem(
             {
                 id: "Translations",
-                name: "Translations",
+                name: "Translations".localize(),
                 v: 6,
                 canResearch: function (company) {
                     return company.currentLevel >= 2;
