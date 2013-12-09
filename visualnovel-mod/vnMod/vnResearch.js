@@ -30,7 +30,7 @@ var vnResearch = {};
             });
         
         //Add Music Gallery
-        GDT.addRsearchItem(
+        GDT.addResearchItem(
             {
                 id: "Music Gallery",
                 name: "Music Gallery".localize(),
