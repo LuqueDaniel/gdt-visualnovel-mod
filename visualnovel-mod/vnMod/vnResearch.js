@@ -81,6 +81,19 @@ var vnResearch = {};
                 category: "Language",
                 categoryDisplayName: "Language".localize()
             });
+        
+        //Add Video Gallery
+        GDT.addResearchItem(
+            {
+                id: "Video Gallery",
+                name: "Video Gallery".localize(),
+                v: 4,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
     };
     
 })();
