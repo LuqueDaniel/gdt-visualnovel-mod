@@ -29,6 +29,19 @@ var vnResearch = {};
                 categoryDisplayName: "Engine".localize()
             });
         
+        //Add Fast Skip
+        GDT.addResearchItem(
+            {
+                id: "Fast Skip",
+                name: "Fast Skip".localize(),
+                v: 4,
+                canResearchItem: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
+        
         //Add Music Gallery
         GDT.addResearchItem(
             {
