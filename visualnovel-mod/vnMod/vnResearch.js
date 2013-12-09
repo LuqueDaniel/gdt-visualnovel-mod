@@ -3,6 +3,19 @@ var vnResearch = {};
 (function () {
     
     vnResearch.addResearch = function () {
+        //Add Auto Advance
+        GDT.addResearchItem(
+            {
+                id: "Auto Advance",
+                name: "Auto Advance".localize(),
+                v: 4,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
+        
         //Add Auto Save
         GDT.addResearchItem(
             {
