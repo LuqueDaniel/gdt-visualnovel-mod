@@ -65,8 +65,20 @@ var vnResearch = {};
                     return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
                 category: "Engine",
-                categoryDisplayName: "Engine".localize(),
-                
+                categoryDisplayName: "Engine".localize()  
+            });
+        
+        //Add Skip
+        GDT.addResearchItem(
+            {
+                id: "Skip",
+                name: "Skip".localize(),
+                v: 4,
+                canResearch: function (company) {
+                    return: LevelCalculator.getMissionLevel('Engine') >= 3;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
             });
         
         //Add Translations
