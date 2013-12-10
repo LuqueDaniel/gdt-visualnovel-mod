@@ -8,9 +8,9 @@ var vnResearch = {};
             {
                 id: "Auto Advance",
                 name: "Auto Advance".localize(),
-                v: 4,
+                v: 2,
                 canResearch: function (company) {
-                    return LevelCalculator.getMissionLevel('Engine') >= 3;
+                    return LevelCalculator.getMissionLevel('Engine') >= 2;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
@@ -47,7 +47,7 @@ var vnResearch = {};
             {
                 id: "Fast Skip",
                 name: "Fast Skip".localize(),
-                v: 4,
+                v: 2,
                 canResearchItem: function (company) {
                     return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
@@ -73,7 +73,7 @@ var vnResearch = {};
             {
                 id: "NVL Mode",
                 name: "NVL Mode".localize(),
-                v: 4,
+                v: 2,
                 canResearch: function (company) {
                     return LevelCalculator.getMissionLevel('Engine') >= 2;
                 },
@@ -86,9 +86,9 @@ var vnResearch = {};
             {
                 id: "Quick Saving",
                 name: "Quick Saving".localize(),
-                v: 4,
+                v: 2,
                 canResearch: function (company) {
-                    return LevelCalculator.getMissionLevel('Engine') >= 4;
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
@@ -112,9 +112,9 @@ var vnResearch = {};
             {
                 id: "Skip",
                 name: "Skip".localize(),
-                v: 4,
+                v: 2,
                 canResearch: function (company) {
-                    return: LevelCalculator.getMissionLevel('Engine') >= 3;
+                    return: LevelCalculator.getMissionLevel('Engine') >= 2;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
