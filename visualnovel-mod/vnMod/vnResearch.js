@@ -68,6 +68,19 @@ var vnResearch = {};
                 categoryDisplayName: "Engine".localize()
             });
         
+        //Add NVL Mode
+        GDT.addResearchItem(
+            {
+                id: "NVL Mode",
+                name: "NVL Mode".localize(),
+                v: 4,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 2;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
+        
         //Add Quick Saving
         GDT.addResearchItem(
             {
