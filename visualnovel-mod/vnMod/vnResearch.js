@@ -55,6 +55,19 @@ var vnResearch = {};
                 categoryDisplayName: "Engine".localize()
             });
         
+        //Add Multi Character
+        GDT.addResearchItem(
+            {
+                id: "Multi Character",
+                name: "Multi Character".localize(),
+                v: 2,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize8()
+            });
+        
         //Add Music Gallery
         GDT.addResearchItem(
             {
