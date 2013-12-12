@@ -48,7 +48,7 @@ var vnResearch = {};
                 id: "Fast Skip",
                 name: "Fast Skip".localize(),
                 v: 2,
-                canResearchItem: function (company) {
+                canResearch: function (company) {
                     return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
                 category: "Engine",
@@ -65,7 +65,7 @@ var vnResearch = {};
                     return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
                 category: "Engine",
-                categoryDisplayName: "Engine".localize8()
+                categoryDisplayName: "Engine".localize()
             });
         
         //Add Music Gallery
@@ -127,7 +127,7 @@ var vnResearch = {};
                 name: "Skip".localize(),
                 v: 2,
                 canResearch: function (company) {
-                    return: LevelCalculator.getMissionLevel('Engine') >= 2;
+                    return LevelCalculator.getMissionLevel('Engine') >= 2;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
