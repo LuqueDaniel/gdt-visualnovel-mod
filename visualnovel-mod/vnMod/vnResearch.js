@@ -119,6 +119,19 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()  
             });
+
+        //Add Screenshots Support
+        GDT.addResearchItem(
+            {
+                id: "Screenshots Support",
+                name: "Screenshots Support".localize(),
+                v: 2,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 2;
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
         
         //Add Skip
         GDT.addResearchItem(
