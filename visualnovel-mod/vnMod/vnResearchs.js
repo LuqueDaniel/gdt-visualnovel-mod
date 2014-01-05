@@ -2,7 +2,7 @@ var vnResearch = {};
 
 (function () {
     
-    vnResearch.addResearch = function () {
+    vnResearch.addResearchs = function () {
         //Add Auto Advance
         GDT.addResearchItem(
             {

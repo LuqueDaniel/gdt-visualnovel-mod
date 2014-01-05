@@ -4,7 +4,7 @@
     "version": "0.1",
     "description": "This mod adds support for visual novels.",
     "author": "Daniel Luque <danielluque14 at gmail.com>",
-    "url": "",
+    "url": "https://github.com/LuqueDaniel/gdt-visualnovel-mod",
     "main": "./vnMod.js",
     "dependencies": {
         "gdt-modAPI": "0.1.x"

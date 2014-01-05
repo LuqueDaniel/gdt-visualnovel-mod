@@ -4,7 +4,7 @@
         vnTopics.addTopics();
         
         //Adds researchs
-        vnResearch.addResearch();
+        vnResearch.addResearchs();
     };
     
     var error = function () {
@@ -23,6 +23,6 @@
             
             //Visual Novel Mod files
             'mods/visualnovel-mod/vnMod/vnTopics.js',
-            'mods/visualnovel-mod/vnMod/vnResearch.js'
+            'mods/visualnovel-mod/vnMod/vnResearchs.js'
         ], ready, error);
 })();
