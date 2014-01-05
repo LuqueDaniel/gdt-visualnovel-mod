@@ -7,8 +7,8 @@ This Game Dev Tycoon mod adds support for topics and researches related to visua
 
 Features
 --------------------------------------------------------------------------
-- 9 new topics.
-- 13 new researchs.
+- **New topics**: 9
+- **New researchs**: 13
 
 Screenshots
 --------------------------------------------------------------------------
