@@ -2,7 +2,7 @@
     "id": "visualnovelMod",
     "name": "Visual Novel Mod",
     "version": "0.1",
-    "description": "This mod adds support for visual novels.",
+    "description": "This mod adds support for topics and researches related to visual novels.",
     "author": "Daniel Luque <danielluque14 at gmail.com>",
     "url": "https://github.com/LuqueDaniel/gdt-visualnovel-mod",
     "main": "./vnMod.js",
