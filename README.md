@@ -14,3 +14,12 @@ Screenshots
 --------------------------------------------------------------------------
 ![screenshot](https://raw.github.com/LuqueDaniel/gdt-visualnovel-mod/master/screenshots/screenshot_01.png)
 ![screenshot](https://raw.github.com/LuqueDaniel/gdt-visualnovel-mod/master/screenshots/screenshot_02.png)
+
+How to install
+--------------------------------------------------------------------------
+* Go to your Game Dev Tycoon directory
+    - On steam. Go to you steam folder and go into "steamapps/common/Game Dev Tycoon"
+* Paste visualnovel-mod folder in mods directory.
+* Start Game Dev Tycoon, go to the main menu and select mods.
+* Click on Visual Novel Mod to activate.
+* Enjoy the mod.
