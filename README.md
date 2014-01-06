@@ -20,7 +20,7 @@ Screenshots
 How to install
 --------------------------------------------------------------------------
 * Go to your Game Dev Tycoon directory
-    - On steam. Go to you steam folder and go into "steamapps/common/Game Dev Tycoon"
+    - On Steam. Go to your Steam folder and go into "steamapps/common/Game Dev Tycoon".
 * Paste visualnovel-mod folder in mods directory.
 * Start Game Dev Tycoon, go to the main menu and select mods.
 * Click on Visual Novel Mod to activate.
