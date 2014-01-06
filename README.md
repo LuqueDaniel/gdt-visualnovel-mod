@@ -8,7 +8,7 @@ This Game Dev Tycoon mod adds support for topics and researches related to visua
 Features
 --------------------------------------------------------------------------
 - **New topics**: 9
-- **New researchs**: 13
+- **New researches**: 13
 
 **[View wiki](https://github.com/LuqueDaniel/gdt-visualnovel-mod/wiki)**
 
