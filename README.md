@@ -10,6 +10,8 @@ Features
 - **New topics**: 9
 - **New researchs**: 13
 
+**[View wiki](https://github.com/LuqueDaniel/gdt-visualnovel-mod/wiki)**
+
 Screenshots
 --------------------------------------------------------------------------
 ![screenshot](https://raw.github.com/LuqueDaniel/gdt-visualnovel-mod/master/screenshots/screenshot_01.png)
