@@ -6,7 +6,7 @@ var vnResearch = {};
         //Add Auto Advance
         GDT.addResearchItem(
             {
-                id: "Auto Advance",
+                id: "vnMod/Auto Advance",
                 name: "Auto Advance".localize(),
                 v: 2,
                 canResearch: function (company) {
@@ -19,7 +19,7 @@ var vnResearch = {};
         //Add Auto Save
         GDT.addResearchItem(
             {
-                id: "Auto Saving",
+                id: "vnMod/Auto Saving",
                 name: "Auto Saving".localize(),
                 v: 2,
                 canResearch: function (company) {
@@ -32,7 +32,7 @@ var vnResearch = {};
         //Add CG Gallery
         GDT.addResearchItem(
             {
-                id: "CG Gallery",
+                id: "vnMod/CG Gallery",
                 name: "CG Gallery".localize(),
                 v: 4,
                 canResearch: function (company) {
@@ -45,7 +45,7 @@ var vnResearch = {};
         //Add Fast Skip
         GDT.addResearchItem(
             {
-                id: "Fast Skip",
+                id: "vnMod/Fast Skip",
                 name: "Fast Skip".localize(),
                 v: 2,
                 canResearch: function (company) {
@@ -58,7 +58,7 @@ var vnResearch = {};
         //Add Multi Character
         GDT.addResearchItem(
             {
-                id: "Multi Character",
+                id: "vnMod/Multi Character",
                 name: "Multi Character".localize(),
                 v: 2,
                 canResearch: function (company) {
@@ -71,7 +71,7 @@ var vnResearch = {};
         //Add Music Gallery
         GDT.addResearchItem(
             {
-                id: "Music Gallery",
+                id: "vnMod/Music Gallery",
                 name: "Music Gallery".localize(),
                 v: 4,
                 canResearch: function (company) {
@@ -84,7 +84,7 @@ var vnResearch = {};
         //Add NVL Mode
         GDT.addResearchItem(
             {
-                id: "NVL Mode",
+                id: "vnMod/NVL Mode",
                 name: "NVL Mode".localize(),
                 v: 2,
                 canResearch: function (company) {
@@ -97,7 +97,7 @@ var vnResearch = {};
         //Add Quick Saving
         GDT.addResearchItem(
             {
-                id: "Quick Saving",
+                id: "vnMod/Quick Saving",
                 name: "Quick Saving".localize(),
                 v: 2,
                 canResearch: function (company) {
@@ -110,7 +110,7 @@ var vnResearch = {};
         //Add Scenes Gallery
         GDT.addResearchItem(
             {
-                id: "Scenes Gallery",
+                id: "vnMod/Scenes Gallery",
                 name: "Scenes Gallery".localize(),
                 v: 4,
                 canResearch: function (company) {
@@ -123,7 +123,7 @@ var vnResearch = {};
         //Add Screenshots Support
         GDT.addResearchItem(
             {
-                id: "Screenshots Support",
+                id: "vnMod/Screenshots Support",
                 name: "Screenshots Support".localize(),
                 v: 2,
                 canResearch: function (company) {
@@ -136,7 +136,7 @@ var vnResearch = {};
         //Add Skip
         GDT.addResearchItem(
             {
-                id: "Skip",
+                id: "vnMod/Skip",
                 name: "Skip".localize(),
                 v: 2,
                 canResearch: function (company) {
@@ -149,7 +149,7 @@ var vnResearch = {};
         //Add Translations
         GDT.addResearchItem(
             {
-                id: "Translations",
+                id: "vnMod/Translations",
                 name: "Translations".localize(),
                 v: 6,
                 canResearch: function (company) {
@@ -162,7 +162,7 @@ var vnResearch = {};
         //Add Video Gallery
         GDT.addResearchItem(
             {
-                id: "Video Gallery",
+                id: "vnMod/Video Gallery",
                 name: "Video Gallery".localize(),
                 v: 4,
                 canResearch: function (company) {
