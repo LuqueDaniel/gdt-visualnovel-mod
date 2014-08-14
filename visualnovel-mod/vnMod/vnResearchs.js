@@ -62,7 +62,7 @@ var vnResearch = {};
                 name: "Multi Character".localize(),
                 v: 2,
                 canResearch: function (company) {
-                    return LevelCalculator.getMissionLevel('Engine') >= 3;
+                    return LevelCalculator.getMissionLevel('Engine') >= 2;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
@@ -73,7 +73,7 @@ var vnResearch = {};
             {
                 id: "vnMod/Music Gallery",
                 name: "Music Gallery".localize(),
-                v: 4,
+                v: 2,
                 canResearch: function (company) {
                     return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
@@ -112,7 +112,7 @@ var vnResearch = {};
             {
                 id: "vnMod/Scenes Gallery",
                 name: "Scenes Gallery".localize(),
-                v: 4,
+                v: 2,
                 canResearch: function (company) {
                     return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
@@ -125,9 +125,9 @@ var vnResearch = {};
             {
                 id: "vnMod/Screenshots Support",
                 name: "Screenshots Support".localize(),
-                v: 2,
+                v: 4,
                 canResearch: function (company) {
-                    return LevelCalculator.getMissionLevel('Engine') >= 2;
+                    return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
@@ -155,8 +155,8 @@ var vnResearch = {};
                 canResearch: function (company) {
                     return company.currentLevel >= 2;
                 },
-                category: "Language",
-                categoryDisplayName: "Language".localize()
+                category: "Language/Localization",
+                categoryDisplayName: "Language/Localization".localize()
             });
         
         //Add Video Gallery
