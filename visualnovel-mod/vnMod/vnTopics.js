@@ -27,6 +27,13 @@ var vnTopics = {};
             },
             
             {
+                id: "Erogame",
+                name: "Erogame".localize("game topic"),
+                genreWeightings: [0.6, 0.8, 0.8, 0.8, 0.6, 0.6],
+                audienceWeightings: [0.6, 0.6, 1]
+            },
+            
+            {
                 id: "Friendship",
                 name: "Friendship".localize("game topic"),
                 genreWeightings: [0.7, 0.8, 0.9, 0.6, 0.6, 0.9],	
