@@ -16,6 +16,19 @@ var vnResearch = {};
                 categoryDisplayName: "Engine".localize()
             });
         
+        //Add 3D Backgrounds
+        GDT.addResearchItem(
+            {
+                id:"vnMod/3D Backgrounds",
+                name: "3D Backgrounds".localize(),
+                v: 10,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 5 && company.currentLevel >= 2
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
+        
         //Add Auto Advance
         GDT.addResearchItem(
             {
