@@ -3,6 +3,19 @@ var vnResearch = {};
 (function () {
     
     vnResearch.addResearchs = function () {
+        //Add 3D Characters
+        GDT.addResearchItem(
+            {
+                id:"vnMod/3D Characters",
+                name: "3D Characters".localize(),
+                v: 10,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 5 && company.currentLevel >= 2
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
+        
         //Add Auto Advance
         GDT.addResearchItem(
             {
