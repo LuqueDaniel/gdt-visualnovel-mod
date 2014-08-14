@@ -69,6 +69,13 @@ var vnTopics = {};
             },
             
             {
+                id: "Magic",
+                name: "Magic".localize("game topic"),
+                genreWeightings: [1, 1, 1, 0.7, 0.7, 0.9],
+                audienceWeightings: [0.8, 0.9, 0.9]
+            },
+            
+            {
                 id: "Romantic Comedy",
                 name: "Romantic Comedy".localize("game topic"),
                 genreWeightings: [0.7, 0.8, 0.7, 0.7, 0.6, 0.9],	
