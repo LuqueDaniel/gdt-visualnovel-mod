@@ -32,8 +32,8 @@ var vnResearch = {};
         //Add CG Gallery
         GDT.addResearchItem(
             {
-                id: "vnMod/CG Gallery",
-                name: "CG Gallery".localize(),
+                id: "vnMod/Image Gallery",
+                name: "Image Gallery".localize(),
                 v: 4,
                 canResearch: function (company) {
                     return LevelCalculator.getMissionLevel('Engine') >= 3;
