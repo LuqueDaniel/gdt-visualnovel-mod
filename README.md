@@ -8,8 +8,8 @@ This Game Dev Tycoon mod adds some new topics and researches related to visual n
 
 Features
 --------------------------------------------------------------------------
-- **[New topics](https://github.com/LuqueDaniel/gdt-visualnovel-mod/wiki/Topics-list)**: 9
-- **[New researches](https://github.com/LuqueDaniel/gdt-visualnovel-mod/wiki/Researches-list)**: 13
+- **[New topics](https://github.com/LuqueDaniel/gdt-visualnovel-mod/wiki/Topics-list)**: 11
+- **[New researches](https://github.com/LuqueDaniel/gdt-visualnovel-mod/wiki/Researches-list)**: 15
 
 **[View wiki](https://github.com/LuqueDaniel/gdt-visualnovel-mod/wiki)**
 
