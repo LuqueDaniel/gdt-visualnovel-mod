@@ -1,34 +1,34 @@
 var vnResearch = {};
 
 (function () {
-    
+
     vnResearch.addResearchs = function () {
         //Add 3D Characters
         GDT.addResearchItem(
             {
                 id:"vnMod/3D Characters",
                 name: "3D Characters".localize(),
-                v: 10,
+                v: 8,
                 canResearch: function (company) {
                     return LevelCalculator.getMissionLevel('Engine') >= 5 && company.currentLevel >= 2
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add 3D Backgrounds
         GDT.addResearchItem(
             {
                 id:"vnMod/3D Backgrounds",
                 name: "3D Backgrounds".localize(),
-                v: 10,
+                v: 8,
                 canResearch: function (company) {
                     return LevelCalculator.getMissionLevel('Engine') >= 5 && company.currentLevel >= 2
                 },
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add Auto Advance
         GDT.addResearchItem(
             {
@@ -41,7 +41,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add Auto Save
         GDT.addResearchItem(
             {
@@ -54,7 +54,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add CG Gallery
         GDT.addResearchItem(
             {
@@ -67,7 +67,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add Fast Skip
         GDT.addResearchItem(
             {
@@ -80,7 +80,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add Multi Character
         GDT.addResearchItem(
             {
@@ -93,7 +93,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add Music Gallery
         GDT.addResearchItem(
             {
@@ -106,7 +106,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add NVL Mode
         GDT.addResearchItem(
             {
@@ -119,7 +119,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add Quick Saving
         GDT.addResearchItem(
             {
@@ -132,7 +132,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add Scenes Gallery
         GDT.addResearchItem(
             {
@@ -143,7 +143,7 @@ var vnResearch = {};
                     return LevelCalculator.getMissionLevel('Engine') >= 3;
                 },
                 category: "Engine",
-                categoryDisplayName: "Engine".localize()  
+                categoryDisplayName: "Engine".localize()
             });
 
         //Add Screenshots Support
@@ -158,7 +158,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add Skip
         GDT.addResearchItem(
             {
@@ -171,7 +171,7 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
-        
+
         //Add Translations
         GDT.addResearchItem(
             {
@@ -184,7 +184,7 @@ var vnResearch = {};
                 category: "Language/Localization",
                 categoryDisplayName: "Language/Localization".localize()
             });
-        
+
         //Add Video Gallery
         GDT.addResearchItem(
             {
@@ -197,6 +197,44 @@ var vnResearch = {};
                 category: "Engine",
                 categoryDisplayName: "Engine".localize()
             });
+
+        GDT.addResearchItem(
+            {
+                id: "vnMod/Animation Scenes",
+                name: "Animation Scenes".localize(),
+                v: 10,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Graphic') >= 5 && company.currentLevel >= 3
+                },
+                category: "Graphic",
+                categoryDisplayName: "Graphic".localize()
+            });
+
+        //Add VR Theater
+        GDT.addResearchItem(
+            {
+                id: "vnMod/VR Theater",
+                name: "VR Theater".localize(),
+                v: 8,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 6 && company.currentLevel >= 3
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
+
+        //Add VR Interactive
+        GDT.addResearchItem(
+            {
+                id: "vnMod/VR Interactive",
+                name: "VR Interactive".localize(),
+                v: 12,
+                canResearch: function (company) {
+                    return LevelCalculator.getMissionLevel('Engine') >= 7 && company.currentLevel >= 3
+                },
+                category: "Engine",
+                categoryDisplayName: "Engine".localize()
+            });
     };
-    
+
 })();

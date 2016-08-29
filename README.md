@@ -2,7 +2,7 @@ GDT - Visual Novel Mod
 ==========================================================================
 This Game Dev Tycoon mod adds some new topics and researches related to visual novels.
 
-**Version**: 0.2<br />
+**Version**: 0.3<br />
 **Requires API version**: 0.1.x<br />
 **[Steam Workshop page.](http://steamcommunity.com/sharedfiles/filedetails/?id=299122114&searchtext=)**
 
