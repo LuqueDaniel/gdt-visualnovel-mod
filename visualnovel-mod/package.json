@@ -1,13 +1,13 @@
 {
-    "id": "visualnovelMod",
-    "name": "Visual Novel Mod",
-    "version": "0.3",
-    "description": "This Game Dev Tycoon mod adds some new topics and researches related to visual novels.",
-    "image": "vn_mod_thumbnail.png",
-    "author": "DanielL501",
-    "url": "https://github.com/LuqueDaniel/gdt-visualnovel-mod",
-    "main": "./vnMod.js",
-    "dependencies": {
-        "gdt-modAPI": "0.1.x"
-    }
+  "id": "visualnovelMod",
+  "name": "Visual Novel Mod",
+  "version": "0.3.1",
+  "description": "This Game Dev Tycoon mod adds some new topics and researches related to visual novels.",
+  "image": "vn_mod_thumbnail.png",
+  "author": "DanielL501",
+  "url": "https://github.com/LuqueDaniel/gdt-visualnovel-mod",
+  "main": "./vnMod.js",
+  "dependencies": {
+    "gdt-modAPI": "0.1.x"
+  }
 }
